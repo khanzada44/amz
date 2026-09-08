@@ -3,6 +3,7 @@
 
 
 <!-- Mirrored from https://amzpubl.com/about.html by HTTrack Website Copier/3.x [XR&CO], Mon, 07 Sep 2026 16:25:08 GMT -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +20,12 @@
 
 <body class="inner-page about">
 
-
+    <div class="loading-screen" id="loading-screen">
+        <span class="bar top-bar"></span>
+        <span class="bar down-bar"></span>
+        <span class="progress-line"></span>
+        <span class="loading-counter"></span>
+    </div>
     <!-- Scripts style two -->
     <!-- header area two start -->
     <div class="rts-header-area-two header--sticky">
@@ -32,7 +38,8 @@
                         </div>
                         <div class="right">
                             <div class="male">
-                                <a href="mailto:info@amzpubl.com"><i class="fa-solid fa-envelope"></i> info@amzpubl.com</a>
+                                <a href="mailto:info@amzpubl.com"><i class="fa-solid fa-envelope"></i>
+                                    info@amzpubl.com</a>
                             </div>
                             <div class="number">
                                 <a href="tel:+12092652256"><i class="fa-solid fa-phone"></i> +1 209 265-2256</a>
@@ -55,27 +62,33 @@
                             <nav class="nav-area drop-down-rts">
                                 <ul class="navbar-nav-1">
                                     <li class="menu-item main-nav-on">
-                                        <a class="menu-link" href="index-2.html"><span class="rolling-text">Home</span></a>
+                                        <a class="menu-link" href="index-2.html"><span
+                                                class="rolling-text">Home</span></a>
                                     </li>
                                     <li class="menu-item main-nav-on">
-                                        <a class="menu-link" href="about.html"><span class="rolling-text">About</span></a>
+                                        <a class="menu-link" href="about.html"><span
+                                                class="rolling-text">About</span></a>
                                     </li>
                                     <li class="menu-item main-nav-on">
-                                        <a class="menu-link" href="pricing.html"><span class="rolling-text">Pricing</span></a>
+                                        <a class="menu-link" href="pricing.html"><span
+                                                class="rolling-text">Pricing</span></a>
                                     </li>
                                     <li class="menu-item main-nav-on">
-                                        <a class="menu-link" href="contact.html"><span class="rolling-text">Contact</span></a>
+                                        <a class="menu-link" href="contact.html"><span
+                                                class="rolling-text">Contact</span></a>
                                     </li>
                                 </ul>
                             </nav>
                         </div>
-                        <div class="header-right"> 
+                        <div class="header-right">
                             <!-- social area start -->
                             <div class="social-transparent-wrapper">
                                 <ul>
-                                    <li><a href="javascript:" target="_blank"><i class="fa-brands fa-instagram"></i></a></li> 
-                                    <li><a href="https://www.facebook.com/profile.php?id=61587087537834#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="contact.html" class="rts-btn btn-radious btn-dark">Get a quote</a></li> 
+                                    <li><a href="javascript:" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/profile.php?id=61587087537834#"
+                                            target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="contact.html" class="rts-btn btn-radious btn-dark">Get a quote</a></li>
                                 </ul>
                             </div>
                             <!-- social area end -->
@@ -85,16 +98,25 @@
                                     <div class="container-menu">
                                         <div class="action-menu">
                                             <div class="close-event"></div>
-                                            <div class="open-event"> 
+                                            <div class="open-event">
                                                 <div class="burger">
-                                                    <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-close" data-v-649bbaab="">
-                                                        <line x1="13.788" y1="1.28816" x2="1.06011" y2="14.0161" stroke="currentColor" stroke-width="1.2"></line>
-                                                        <line x1="1.06049" y1="1.43963" x2="13.7884" y2="14.1675" stroke="currentColor" stroke-width="1.2"></line>
+                                                    <svg viewBox="0 0 15 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg" class="icon-close"
+                                                        data-v-649bbaab="">
+                                                        <line x1="13.788" y1="1.28816" x2="1.06011" y2="14.0161"
+                                                            stroke="currentColor" stroke-width="1.2"></line>
+                                                        <line x1="1.06049" y1="1.43963" x2="13.7884" y2="14.1675"
+                                                            stroke="currentColor" stroke-width="1.2"></line>
                                                     </svg>
-                                                    <svg viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-burger" data-v-649bbaab="">
-                                                        <line x1="18" y1="0.6" y2="0.6" stroke="currentColor" stroke-width="1.2" data-v-649bbaab=""></line>
-                                                        <line x1="18" y1="5.7167" y2="5.7167" stroke="currentColor" stroke-width="1.2" data-v-649bbaab=""></line>
-                                                        <line x1="18" y1="10.8334" y2="10.8334" stroke="currentColor" stroke-width="1.2" data-v-649bbaab=""></line>
+                                                    <svg viewBox="0 0 18 12" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg" class="icon-burger"
+                                                        data-v-649bbaab="">
+                                                        <line x1="18" y1="0.6" y2="0.6" stroke="currentColor"
+                                                            stroke-width="1.2" data-v-649bbaab=""></line>
+                                                        <line x1="18" y1="5.7167" y2="5.7167" stroke="currentColor"
+                                                            stroke-width="1.2" data-v-649bbaab=""></line>
+                                                        <line x1="18" y1="10.8334" y2="10.8334" stroke="currentColor"
+                                                            stroke-width="1.2" data-v-649bbaab=""></line>
                                                     </svg>
                                                 </div>
                                             </div>
@@ -118,8 +140,10 @@
                                                         <div class="address">
                                                             <ul>
                                                                 <li>
-                                                                    <p><i class="fa-solid fa-location-dot"></i> 6708 Hillcroft Street Houston TX 77081 United States</p>
-                                                                </li>  
+                                                                    <p><i class="fa-solid fa-location-dot"></i> 6708
+                                                                        Hillcroft Street Houston TX 77081 United States
+                                                                    </p>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -127,14 +151,22 @@
                                                         <h2 class="heading-title">Get In Touch</h2>
                                                         <div class="contact">
                                                             <ul>
-                                                                <li><a href="mailto:info@amzpubl.com" class="mail"><i class="fa-solid fa-envelope"></i> info@amzpubl.com</a></li>
-                                                                <li><a href="tel:+12092652256" class="number"><i class="fa-solid fa-phone"></i> +1 209 265-2256</a></li>
+                                                                <li><a href="mailto:info@amzpubl.com" class="mail"><i
+                                                                            class="fa-solid fa-envelope"></i>
+                                                                        info@amzpubl.com</a></li>
+                                                                <li><a href="tel:+12092652256" class="number"><i
+                                                                            class="fa-solid fa-phone"></i> +1 209
+                                                                        265-2256</a></li>
                                                             </ul>
                                                         </div>
                                                         <div class="rts-social-area-one">
                                                             <ul>
-                                                                <li><a href="javascript:" target="_blank"><i class="fa-brands fa-instagram"></i></a></li> 
-                                                                <li><a href="https://www.facebook.com/profile.php?id=61587087537834#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                                                <li><a href="javascript:" target="_blank"><i
+                                                                            class="fa-brands fa-instagram"></i></a></li>
+                                                                <li><a href="https://www.facebook.com/profile.php?id=61587087537834#"
+                                                                        target="_blank"><i
+                                                                            class="fa-brands fa-facebook-f"></i></a>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -165,13 +197,25 @@
                     <div class="baread-crumb-main-wrapper pt--100">
                         <div class="inner">
                             <span class="works">Our Selected Works</span>
-                            <h1 class="title rts_hero__title">Our Story</h1>
+                            <h1 class="title rts_hero__title">OUR PUBLISHING STORY</h1>
+
                             <p>
-                                At Amazon Publisher, we believe every story deserves a global stage. Founded with a vision to empower authors and storytellers, our mission is 
-                                to simplify the journey from manuscript to masterpiece. Whether you’re a first-time writer or an established author, we provide all-in-one 
-                                publishing, design, and marketing solutions to help your book reach readers around the world.
-                                Our passion for creativity and commitment to excellence have made us a trusted name in professional book publishing and promotion services.
+                                At Amazon Publisher, we believe every story deserves the opportunity to reach readers
+                                around the
+                                world. Built with a passion for empowering authors and storytellers, our mission is to
+                                make the
+                                journey from manuscript to published book simple, clear, and rewarding. Whether you are
+                                a
+                                first-time writer or an established author, we provide complete book publishing,
+                                editing, design,
+                                formatting, and marketing solutions tailored to your goals. From developing your
+                                manuscript to
+                                preparing your book for global distribution, we are committed to helping authors bring
+                                their
+                                ideas to life and build a lasting connection with readers.
                             </p>
+
+
                             <span class="bg-text">About Us</span>
                         </div>
                     </div>
@@ -217,18 +261,36 @@
                     <!-- approach area left start -->
                     <div class="approch-area-left">
                         <div class="title-area-left-wrapper">
-                            <span class="pre-title">Our Approach</span>
-                            <h2 class="title quote">Expertise in Publishing, Design, and Promotion</h2>
+                            <span class="pre-title">OUR APPROACH TO BOOK PUBLISHING</span>
+                            <h2 class="title quote">BOOK PUBLISHING, DESIGN & MARKETING EXPERTISE</h2>
                         </div>
+
                         <p class="disc rts-text-anim">
-                            At Amazon Publisher, we believe every great book begins with a powerful vision. Our approach blends creative storytelling, professional design, and strategic marketing to help authors achieve lasting success.
+                            At Amazon Publisher, we believe every great book begins with a powerful vision. Our approach
+                            combines creative storytelling, thoughtful book design, and strategic marketing to help
+                            authors
+                            transform their ideas into compelling books, connect with readers, and build a strong
+                            presence
+                            in the publishing world.
                         </p>
+
+
                         <p class="disc rts-text-anim">
-                            From concept to completion, we provide personalized support, ensuring your book is polished, published, and positioned for global reach. With a team of expert editors, designers, and marketing professionals, we handle every detail so you can focus on your passion — writing.
+                            From concept to completion, we provide personalized support throughout your publishing
+                            journey,
+                            helping ensure your manuscript is polished, properly formatted, published, and prepared for
+                            global distribution. With skilled editors, experienced designers, and dedicated marketing
+                            specialists, we manage the essential details of book production and promotion while you stay
+                            focused on what matters most — bringing your next great story to life.
                         </p>
+
+
                         <p class="disc rts-text-anim">
-                            We turn your manuscript into a masterpiece and your story into a bestseller.
+                            We transform your manuscript into a polished book and your story into an unforgettable
+                            reading experience.
                         </p>
+
+
                     </div>
                     <!-- approach area left end -->
                 </div>
@@ -237,7 +299,8 @@
                     <div class="single-approach-area-start">
                         <div class="left-area">
                             <h3 class="title">Personalized Guidance</h3>
-                            <p class="disc rts-text-anim">We work closely with each author to understand their goals and genre.</p>
+                            <p class="disc rts-text-anim">We work closely with each author to understand their goals and
+                                genre.</p>
                         </div>
                     </div>
                     <!-- single approch area end -->
@@ -245,7 +308,8 @@
                     <div class="single-approach-area-start two">
                         <div class="left-area">
                             <h3 class="title">Comprehensive Services</h3>
-                            <p class="disc rts-text-anim"> From writing, editing, and formatting to cover design, publishing, and marketing — everything under one roof.</p>
+                            <p class="disc rts-text-anim"> From writing, editing, and formatting to cover design,
+                                publishing, and marketing — everything under one roof.</p>
                         </div>
                     </div>
                     <!-- single approch area end -->
@@ -253,7 +317,8 @@
                     <div class="single-approach-area-start three mb--0">
                         <div class="left-area">
                             <h3 class="title">Global Reach</h3>
-                            <p class="disc rts-text-anim">Our distribution network ensures your book is available on leading platforms worldwide.</p>
+                            <p class="disc rts-text-anim">Our distribution network ensures your book is available on
+                                leading platforms worldwide.</p>
                         </div>
                     </div>
                     <!-- single approch area end -->
@@ -274,8 +339,10 @@
                             <div class="single-progress-circle counter__anim">
                                 <svg class="radial-progress" data-countervalue="71" viewBox="0 0 80 80">
                                     <circle class="bar-static" cx="40" cy="40" r="35"></circle>
-                                    <circle class="bar--animated" cx="40" cy="40" r="35" style="stroke-dashoffset: 217.8;"></circle>
-                                    <text class="countervalue start" x="50%" y="56%" transform="matrix(0, 1, -1, 0, 80, 0)">71</text>
+                                    <circle class="bar--animated" cx="40" cy="40" r="35"
+                                        style="stroke-dashoffset: 217.8;"></circle>
+                                    <text class="countervalue start" x="50%" y="56%"
+                                        transform="matrix(0, 1, -1, 0, 80, 0)">71</text>
                                 </svg>
                                 <span class="small-text">
                                     Project Process
@@ -288,8 +355,10 @@
                             <div class="single-progress-circle counter__anim">
                                 <svg class="radial-progress" data-countervalue="62" viewBox="0 0 80 80">
                                     <circle class="bar-static" cx="40" cy="40" r="35"></circle>
-                                    <circle class="bar--animated" cx="40" cy="40" r="35" style="stroke-dashoffset: 217.8;"></circle>
-                                    <text class="countervalue start" x="50%" y="56%" transform="matrix(0, 1, -1, 0, 80, 0)">62</text>
+                                    <circle class="bar--animated" cx="40" cy="40" r="35"
+                                        style="stroke-dashoffset: 217.8;"></circle>
+                                    <text class="countervalue start" x="50%" y="56%"
+                                        transform="matrix(0, 1, -1, 0, 80, 0)">62</text>
                                 </svg>
                                 <span class="small-text">
                                     Branding Plans
@@ -303,8 +372,10 @@
                             <div class="single-progress-circle counter__anim">
                                 <svg class="radial-progress" data-countervalue="85" viewBox="0 0 80 80">
                                     <circle class="bar-static" cx="40" cy="40" r="35"></circle>
-                                    <circle class="bar--animated" cx="40" cy="40" r="35" style="stroke-dashoffset: 217.8;"></circle>
-                                    <text class="countervalue start" x="50%" y="56%" transform="matrix(0, 1, -1, 0, 80, 0)">85</text>
+                                    <circle class="bar--animated" cx="40" cy="40" r="35"
+                                        style="stroke-dashoffset: 217.8;"></circle>
+                                    <text class="countervalue start" x="50%" y="56%"
+                                        transform="matrix(0, 1, -1, 0, 80, 0)">85</text>
                                 </svg>
                                 <span class="small-text">
                                     Online Marketing
@@ -318,8 +389,10 @@
                             <div class="single-progress-circle counter__anim">
                                 <svg class="radial-progress" data-countervalue="65" viewBox="0 0 80 80">
                                     <circle class="bar-static" cx="40" cy="40" r="35"></circle>
-                                    <circle class="bar--animated" cx="40" cy="40" r="35" style="stroke-dashoffset: 217.8;"></circle>
-                                    <text class="countervalue start" x="50%" y="56%" transform="matrix(0, 1, -1, 0, 80, 0)">65</text>
+                                    <circle class="bar--animated" cx="40" cy="40" r="35"
+                                        style="stroke-dashoffset: 217.8;"></circle>
+                                    <text class="countervalue start" x="50%" y="56%"
+                                        transform="matrix(0, 1, -1, 0, 80, 0)">65</text>
                                 </svg>
                                 <span class="small-text">
                                     Concept Making
@@ -388,8 +461,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="title-faq-4">
-                        <span class="pre">ACHIEVEMENTS</span>
-                        <h2 class="title quote">Frequently ask question?</h2>
+                        <span class="pre">OUR PUBLISHING ACHIEVEMENTS</span>
+                        <h2 class="title quote">BOOK PUBLISHING FAQs?</h2>
                     </div>
                 </div>
             </div>
@@ -406,71 +479,143 @@
                         <div class="accordion" id="accordionExample">
                             <div class="accordion-item rts-slide-up-gsap">
                                 <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Q1. What services does Amazon Publisher offer?
+
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Q1. What Book Publishing Services Does Amazon Publisher Offer?
                                     </button>
+
+
                                 </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
+
                                         <p>
-                                            We provide complete publishing solutions — including editing, design, formatting, ISBN setup, book distribution, and marketing.
+                                            We offer complete book publishing solutions, including manuscript editing,
+                                            book cover design,
+                                            formatting, ISBN setup, publishing, global book distribution, and marketing.
+                                            Our services are
+                                            designed to support authors throughout the publishing process, from
+                                            preparing the manuscript
+                                            to making the finished book available to readers worldwide.
                                         </p>
+
+
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item rts-slide-up-gsap">
                                 <h2 class="accordion-header" id="headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Q2. Can you help me promote my book after publishing? 
+
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Q2. Do You Offer Book Marketing and Promotion Services After Publishing?
                                     </button>
+
+
                                 </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
+
                                         <p>
-                                            Yes! We specialize in book marketing campaigns, press releases, and social media promotions to help your book reach a global audience.
+                                            Yes. Our book marketing and promotion services help authors build visibility
+                                            after publishing
+                                            through targeted marketing campaigns, press releases, social media
+                                            promotion, and digital
+                                            outreach. We focus on increasing your book’s online presence, reaching
+                                            relevant readers, and
+                                            creating ongoing awareness for your published work across key platforms.
                                         </p>
+
+
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item rts-slide-up-gsap">
                                 <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Q3. Do I keep the rights to my book? 
+
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Q3. Do I Retain the Rights and Ownership of My Book?
                                     </button>
+
+
                                 </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
+
                                         <p>
-                                            Absolutely. You retain 99% ownership and full rights to your work.
+                                            Yes. Authors retain ownership and rights to their original work, subject to
+                                            the terms of the
+                                            publishing agreement. You maintain control over your book while we provide
+                                            the publishing,
+                                            design, distribution, and marketing support needed to bring your work to
+                                            readers.
                                         </p>
+
+
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item rts-slide-up-gsap">
                                 <h2 class="accordion-header" id="headingFour">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Q4. How long does the publishing process take? 
+
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Q4. How Long Does the Book Publishing Process Take?
                                     </button>
+
+
                                 </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
+
                                         <p>
-                                            Depending on your package, most books are published within 4–8 weeks after manuscript approval.
+                                            The book publishing timeline depends on the project and selected services.
+                                            In most cases, books
+                                            can be prepared for publication within 4–8 weeks after manuscript approval.
+                                            The timeframe may
+                                            vary depending on editing, formatting, book cover design, revisions,
+                                            publishing requirements,
+                                            and distribution needs.
                                         </p>
+
+
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item rts-slide-up-gsap">
                                 <h2 class="accordion-header" id="headingFive">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Q5. Can you publish both eBooks and print books?
+
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Q5. Can You Publish Both eBooks and Print Books?
                                     </button>
+
+
                                 </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
+
                                         <p>
-                                            Yes, we publish in all formats — eBook, paperback, and hardcover — available on platforms like Amazon, Barnes & Noble, and more.
+                                            Yes. We can publish your book in multiple formats, including eBook,
+                                            paperback, and hardcover.
+                                            We also help prepare and distribute your book through major publishing
+                                            platforms such as Amazon,
+                                            Barnes & Noble, and other relevant online bookstores, making it easier for
+                                            readers to discover
+                                            and purchase your book in their preferred format.
                                         </p>
+
+
                                     </div>
                                 </div>
                             </div>
@@ -637,9 +782,9 @@
             <div class="row  mb--60">
                 <div class="col-lg-12">
                     <div class="title-faq-4">
-                        <span class="pre">INTERNATIONAL BRANDS</span>
+                        <span class="pre">GLOBAL PUBLISHING PARTNERS</span>
                         <h2 class="title quote">
-                            At Amazon Publisher, we partner with leading global publishing and retail platforms
+                           PARTNERING WITH LEADING GLOBAL PUBLISHING & RETAIL PLATFORMS
                         </h2>
                     </div>
                 </div>
@@ -742,8 +887,10 @@
                             </p>
                             <div class="rts-social-area-one">
                                 <ul>
-                                    <li><a href="javascript:" target="_blank"><i class="fa-brands fa-instagram"></i></a></li> 
-                                    <li><a href="https://www.facebook.com/profile.php?id=61587087537834#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="javascript:" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/profile.php?id=61587087537834#"
+                                            target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -754,15 +901,19 @@
                             <!-- contact info -->
                             <div class="contact-information">
                                 <h5 class="title">Contact Info</h5>
-                                <a href="javascript:" class="mail"><i class="fa-solid fa-location-dot"></i> 6708 Hillcroft Street Houston TX 77081 United States</a>
-                                <a href="mailto:info@amzpubl.com" class="mail"><i class="fa-solid fa-envelope"></i> info@amzpubl.com</a>
-                                <a href="tel:+12092652256" class="mail"><i class="fa-solid fa-phone"></i> +1 209 265-2256</a>
+                                <a href="javascript:" class="mail"><i class="fa-solid fa-location-dot"></i> 6708
+                                    Hillcroft Street Houston TX 77081 United States</a>
+                                <a href="mailto:info@amzpubl.com" class="mail"><i class="fa-solid fa-envelope"></i>
+                                    info@amzpubl.com</a>
+                                <a href="tel:+12092652256" class="mail"><i class="fa-solid fa-phone"></i> +1 209
+                                    265-2256</a>
                             </div>
                             <!-- contact info end -->
                             <!-- contact info -->
                             <div class="contact-information input">
                                 <h5 class="title">Subscribe Newsletter</h5>
-                                <p class="map">Subscribe our newsletter for future updates. don’t <br> worry we don’t spam your email address</p>
+                                <p class="map">Subscribe our newsletter for future updates. don’t <br> worry we don’t
+                                    spam your email address</p>
                                 <form action="#" class="form-footer-2">
                                     <label for="email-1"><i class="fa-regular fa-envelope"></i></label>
                                     <input id="email-1" type="email" placeholder="Enter your email..." required>
@@ -794,7 +945,7 @@
 
 
     <!-- Scripts style two -->
-     
+
 
 
     <div class="bg-noise"></div>
@@ -816,8 +967,8 @@
     </div>
     <div class="rts-cursor cursor-inner" data-default="yes" data-link="yes" data-slider="no">
         <span class="fn-cursor">
-        <span class="fn-left"></span>
-        <span class="fn-right"></span>
+            <span class="fn-left"></span>
+            <span class="fn-right"></span>
         </span>
     </div>
     <!-- pre loader end -->
@@ -875,4 +1026,5 @@
 
 
 <!-- Mirrored from https://amzpubl.com/about.html by HTTrack Website Copier/3.x [XR&CO], Mon, 07 Sep 2026 16:25:11 GMT -->
+
 </html>
